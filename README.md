@@ -10,7 +10,11 @@
 
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-  # QUE1 :
+  #QUE1 : WRITE A PROGRAM TO IMPLEMENT A
+BASIC DATA COMPRESSION
+ALGORITHM LIKE RUN-LENGTH
+ENCODING (RLE).
+
   Data compression plays a vital role in reducing the size of data for efficient storage and transmission. Among various compression techniques, Run-Length Encoding (RLE) stands out as a simple yet effective lossless algorithm, particularly useful when data contains many consecutive repeated characters. This project focuses on implementing the RLE algorithm using the C programming language.
 
 The program accepts a string input from the user, which may include alphabets, digits, spaces, and special characters. It scans the input sequentially, counting the number of consecutive occurrences of each character. Instead of storing repeated characters individually, the program compresses them by storing a single instance of the character followed by the count of its repetitions. For example, a sequence such as “aaaabbbcc” is compressed to “a4b3c2”. This not only reduces the size of the data but also provides insight into how compression algorithms function at a fundamental level.
@@ -21,7 +25,10 @@ Overall, this project serves as an educational tool to demonstrate the concept o
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# QUE2: 
+#QUE2: DELIVERABLE: A TOOL THAT
+COMPRESSES AND DECOMPRESSES
+TEXT FILES.
+
 Data compression is a crucial technique in computer science that helps reduce the size of data for storage efficiency and faster transmission. Among various compression algorithms, Run-Length Encoding (RLE) is one of the simplest forms of lossless compression, especially effective when the data contains many consecutive repeating characters. This project implements a tool in C programming language that performs both compression and decompression of text files using the RLE algorithm.
 
 The program begins by reading the content of a user-specified text file. It then compresses the data by scanning through the text, counting consecutive repeated characters, and replacing them with a single instance of the character followed by the number of repetitions. For example, a sequence like “aaaaabb” is compressed into “a5b2”. This reduces the file size, particularly for text containing many repeating characters such as spaces or repeated letters.
